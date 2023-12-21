@@ -1,0 +1,55 @@
+body {
+  background-image: url("Resources/main-page-image3.jpg");
+  background-repeat: no-repeat; /* Preventing image from repeating */
+  background-size: cover; /* Stretching image to cover the entire screen */
+  z-index: 0;
+  }
+
+#main-container {
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  #google-maps {
+    flex: 1;
+    background-color: #cccccc;
+  }
+  
+  #info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    
+  }
+  
+  #email-container {
+    background-color: #000;
+    color: #fff;
+    padding: 10px; 
+    width: 100%; 
+  }
+  
+  #address-phone-container {
+    display: flex;
+  }
+  
+  #address, #phone {
+    flex: 1;
+    background-color: #e6b8b8;
+    color: #fff;
+    padding: 90px;
+  }
+  
+  #phone {
+    background-color: #007bff;
+  }
+  
+  h3, p {
+    margin: 0;
+  }
+  
+  .white-text {
+    color: #fff;
+  }
+  
